@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "com.soulbound.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "SoulBoundMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
+    }
+}
